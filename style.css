@@ -1,0 +1,384 @@
+
+.hero-container {
+  background-image: url('https://img.lovepik.com/bg/20231213/pile-of-gold-bars-with-a-stack-of-gold-and_2452393_wh860.png');
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+
+
+
+
+
+
+.hero-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 670px;
+  color: #ffffff;
+  font-size: 75px;
+}
+
+.hero-text {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  color: white;
+  font-size: 23px;
+}
+
+.b {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.hero-button {
+  display: flex;
+  text-align: center;
+  margin-left: 650px;
+  margin-top: 50px;
+  border: 3px solid white;
+  width: 600px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #ffffff00;
+  color: white;
+  font-size: 27px;
+}
+
+.hero-button:hover {
+  border: 3px solid rgb(94, 255, 0);
+  transition: 0.5s;
+}
+
+.b:hover {
+  color: rgb(115, 255, 0);
+  transition: 0.5s;
+}
+
+
+/* history */
+
+.history-container {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding-top: 80px;
+  padding-bottom: 25px;
+}
+
+.history-card { 
+  margin-left: 390px;
+  border: 5px solid white;
+  border-top: #2195f300;
+  width: 1140px;
+  height: 350px;
+  border-radius: 50px;
+  background-color: rgb(236, 236, 236);
+  
+}
+
+
+.history-title {
+  font-size: 50px;
+  text-align: flex-start;
+  margin-top: 55px;
+}
+
+.history-text {
+  font-size: 20px;
+  text-align: flex-start;
+  margin-top: 15px;
+}
+
+
+
+/* blog */
+
+.blog-container {
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.blog-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border: 0.000000001px solid white;
+  width: 1140px;
+  height: 210px;
+  border: 1px solid white;
+  width: 1140px;
+  height: auto;
+  margin-left: 360px;
+
+
+}
+
+.blog-title {
+  font-size: 40px;
+  margin-left: 700px;
+}
+
+.blog-btn {
+  margin-top: 50px;
+  border: 3px solid white;
+  background: #ffffff00;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  color: white;
+  transition: 1s;
+
+}
+
+.blog-btn:hover {
+  color: rgb(185, 226, 177);
+  background-color: white;
+  border: 3px solid rgb(185, 226, 177);
+}
+
+.blog-btn-text {
+  font-size: 20px;
+}
+
+.blog-item {
+  border: 1px solid rgb(185, 226, 177);
+  background-color: rgb(185, 226, 177);
+  width: 300px;
+  height: 500px;
+  margin-left: 40px;
+  margin-top: 10px;
+  border-radius: 50px;
+  border-top: 0px;
+}
+
+.blog-img {
+  width: 300px;
+  height: 250px;
+  border-radius: 50px;
+}
+
+.blog-name {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.blog-text {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+
+.blog-container {
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.blog-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border: 0.000000001px solid white;
+  width: 1140px;
+  height: 210px;
+  border: 1px solid white;
+  width: 1140px;
+  height: auto;
+  margin-left: 360px;
+
+
+}
+
+
+
+.choose-container {
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #bebebe;
+
+  
+}
+
+.choose-box {
+  background-color: orangered;
+  margin-left: 600px;
+  border: 1px solid orangered;
+  width: 700px;
+  height: 450px;
+  border-radius: 50px;
+}
+
+.choose-title {
+  color: #fff;
+  font-size: 70px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.choose-btn {
+  border: 1px solid rgb(199, 199, 199);
+  background-color: rgb(199, 199, 199);
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 290px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.choose-btn:hover {
+  background-color: white;
+  color: rgb(199, 199, 199);
+  transition: 1s;  
+}
+
+/* modal */
+
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}  
+
+
+
+.buy-modal-window {
+  width: 700px;
+  height: 700px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 40px;
+  width: 528px;
+  height: 581px;
+  
+}
+
+.modal-list-close {
+  display: flex;
+}
+
+.modal-close {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: white;
+  border-radius: 50px;
+  position: absolute;
+  top: 7px;
+  right: 7px;
+}
+
+.modal-svg {
+  width: 20px;
+  height: 20px;
+  margin-top: 3px;  
+}
+
+.modal-title {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+.modal-block {
+  display: flex;
+}
+
+.modal-img {
+  width: 230px;
+  height: 150px;
+  border-radius: 50px;
+
+}
+
+.modal-btn {
+  width: 200px;
+  height: 50px;
+  background-color: rgba(255, 166, 0, 0);
+  border: 2px solid orange;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 15px;
+  margin-top: 105px;
+  color: orange;
+  cursor: pointer;
+}
+
+.modal-btn:hover {
+  background-color: orange;
+  color: rgb(255, 255, 255);
+  transition: 1s;
+}
+
+.modal-btn:active {
+  background-color: orangered;
+  color: yellow;
+  transition: 1s;
+}
+
+.modal-text {
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 15px;
+  color: black;
+}
+
+.modal-name {
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 15px;
+  color: black;
+}
+
+.buy-modal-input {
+  width: 350px;
+  height: 30px;
+  margin-top: 20px;
+  display: flex;
+  border-radius: 50px;
+  border: 2px solid orange;
+  margin-left: 50px;
+  padding-left: 35px;
+  color: orange;
+}
+
+.buy-modal-icons {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  top: 487.5px;
+  left: 100px;
+  fill: rgb(0, 0, 0);
+  position: absolute; 
+}
+
+.buy-modal-input:focus {
+  outline: none;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: orange;
+  color: #fff;
+  font-size: 20px;
+}
+
+
